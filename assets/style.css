@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Chewy', cursive;
+}
+header{
+    background-image: url("img/rick-morty-hero.jpg");
+    margin-top: 0;
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: #d709f2;
+    text-align: center;
+}
+input{
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+    border: none;
+    background-color:transparent;
+    border: 0px solid;
+}
+
+.card{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+    border: 2px solid darkcyan;
+    border-radius: 15px;
+}
+.img-personajes{
+    width: 90%;
+    border-radius: 15px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+    margin: 15px;
+}
+p{
+    margin: 3px;
+    font-size: 20px;
+}
+@media screen and (max-width: 569px){
+    header{
+        background-image: url("img/rick-morty-hero.jpg");
+        margin-top: 0;
+        width: 100vw;
+        height: 90vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
+    input{
+        margin: 0 2px;
+        font-size: 15px;
+        justify-content: center;
+        color: white;
+        border: none;
+        background-color:transparent;
+        border: 0px solid;
+    }
+
+    /* .title-hero{
+        text-align: center;
+    } */
+    .card{
+        width: 80%;
+    }
+}
